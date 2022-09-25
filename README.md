@@ -24,7 +24,7 @@ Right click project and run as spring boot & open:- http://localhost:8080/
 
 
 ## log in 
-ADMIN Module (http://localhost:8080/admin) 
+Admin Module (http://localhost:8080/admin) 
 -  user name:- admin
 -  password :- 123
 -  Note(above default username and password , it can be change in the database)
