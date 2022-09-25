@@ -38,7 +38,7 @@ public class UserController{
 	{
 		try
 		{
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/springproject","root","");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/springproject","root","sHj@6378#jw");
 			PreparedStatement pst = con.prepareStatement("insert into users(username,password,email) values(?,?,?);");
 			pst.setString(1,username);
 			pst.setString(2, password);
