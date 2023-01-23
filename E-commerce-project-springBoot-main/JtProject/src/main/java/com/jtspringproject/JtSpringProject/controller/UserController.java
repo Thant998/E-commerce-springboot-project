@@ -45,7 +45,6 @@ public class UserController{
 			pst.setString(3, email);
 			
 
-			//pst.setString(4, address);
 			int i = pst.executeUpdate();
 			System.out.println("data base updated"+i);
 			
